@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive;
+}
+
+.container {
+  background: #fffffc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc {
+  width: 60%;
+  padding: 4rem;
+  margin: 24px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px 1px #3131332d;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.picHolder {
+  align-items: center;
+}
+
+#profilePic {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+#tudLogo {
+  height: 140px;
+}
+
+section {
+  margin: 24px 0px;
+}
+
+ol > li {
+  margin: 24px 0px;
+}
+
+ul {
+  margin-left: 24px;
+}
+
+ul > li {
+  margin: 16px 0px;
+}
+
+table {
+  width: 100%;
+  margin: 1rem 0;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
